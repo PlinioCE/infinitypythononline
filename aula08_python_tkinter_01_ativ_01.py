@@ -2,7 +2,7 @@ from tkinter import *
 
 
 def saudacao(event=None):
-    label2['text'] = f'Olá, {field1.get().title()}'
+    label2['text'] = f'Olá, {field1.get().title()}!'
     field1.delete(0, 'end')
 
 
